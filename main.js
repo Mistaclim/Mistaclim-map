@@ -16,7 +16,7 @@ $(document).ready(function () {
                 var point = filtered[pointIndex];
                 var lat = point.latitude, lon = point.longitude;
                 var html = '<span> <h4>' + point['Date'] + ' : ' + point['Activity Type'] + '</h4>'
-                    + 'Community: ' + point['Community name'] + ' long: ' + lon + ' lat: ' + lat + ' </span>';
+                    + 'Community: ' + point['Community name']  + ' lat: ' + lat + ' long: ' + lon + ' </span>';
 
                 var marker = L.marker([lat, lon]);
                 
